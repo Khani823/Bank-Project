@@ -19,7 +19,7 @@ public class BankManager : MonoBehaviour
     {      
         if (cash < 10000)
         {
-            //StopPanel.SetActive(true);
+            StopPanel.SetActive(true);
         }
         else
         {
